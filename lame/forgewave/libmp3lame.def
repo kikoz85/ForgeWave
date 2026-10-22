@@ -1,0 +1,26 @@
+; Funzioni esportate da libmp3lame.dll: quelle usate da ForgeWave (src/lame.rs). Il lame.def
+; ufficiale non si può usare perché cita lame_init_old, assente nella 3.100.
+LIBRARY libmp3lame
+EXPORTS
+    lame_init
+    lame_close
+    lame_set_num_channels
+    lame_set_in_samplerate
+    lame_set_quality
+    lame_set_VBR
+    lame_set_VBR_q
+    lame_set_brate
+    lame_set_bWriteVbrTag
+    lame_init_params
+    id3tag_init
+    id3tag_add_v2
+    id3tag_set_title
+    id3tag_set_artist
+    id3tag_set_album
+    id3tag_set_year
+    id3tag_set_comment
+    lame_encode_buffer_ieee_float
+    lame_encode_flush
+    lame_get_lametag_frame
+    lame_get_id3v2_tag
+    get_lame_version

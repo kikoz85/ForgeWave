@@ -1,0 +1,103 @@
+FORGEWAVE — LICENZA D'USO GRATUITA
+Copyright © 2026 Enrico Fanucchi — https://www.enricofanucchi.com
+Tutti i diritti riservati, salvo quanto concesso qui sotto.
+
+Installando o usando ForgeWave accetti questi termini. Se non li accetti, non installarlo.
+
+1. Uso gratuito. ForgeWave è distribuito gratuitamente. Puoi installarlo e usarlo su
+   qualunque numero di computer, per scopi personali, professionali e commerciali.
+
+2. Distribuzione. Puoi ridistribuire i pacchetti originali e non modificati (DMG,
+   installer, zip, AppImage, .deb), solo gratuitamente e insieme a questa licenza.
+   Non puoi venderli né presentare ForgeWave come opera tua.
+
+3. Componenti di terze parti. ForgeWave contiene componenti open source, ciascuno con la
+   propria licenza (file THIRD_PARTY_LICENSES.md, anche in Impostazioni › Informazioni).
+   Per quei componenti valgono le loro licenze, e nulla in questo testo le limita. In
+   particolare LAME (encoder MP3, GNU LGPL) è una libreria separata che puoi sostituire
+   con una tua versione; sono consentiti la modifica per uso personale e il reverse
+   engineering necessari a fare il debug di tali modifiche.
+
+4. Nessuna garanzia. ForgeWave è fornito "così com'è" e "come disponibile", senza
+   garanzie di alcun tipo, esplicite o implicite, comprese quelle di commerciabilità,
+   idoneità a uno scopo particolare, assenza di errori e di interruzioni.
+
+5. Limitazione di responsabilità. Nei limiti massimi consentiti dalla legge applicabile,
+   l'autore non è responsabile di alcun danno, diretto o indiretto, incidentale o
+   consequenziale, comprese la perdita o il danneggiamento di file e di dati, il mancato
+   guadagno e l'interruzione dell'attività, derivante dall'uso o dall'impossibilità di
+   usare ForgeWave, anche se avvisato della possibilità di tali danni. Resta ferma la
+   responsabilità che la legge non consente di escludere (per esempio per dolo o colpa
+   grave).
+
+6. Responsabilità di chi lo usa. Sei l'unico responsabile dei contenuti che apri,
+   registri, catturi, modifichi o pubblichi con ForgeWave: in particolare dei diritti
+   d'autore e connessi, del consenso delle persone registrate e della protezione dei
+   dati. Le funzioni di cattura dell'audio di altre applicazioni, di separazione delle
+   tracce e di trascrizione vanno usate solo su materiale che hai il diritto di usare.
+   Conserva sempre una copia di sicurezza dei tuoi file.
+
+7. Modelli di intelligenza artificiale. I modelli opzionali si scaricano da terze parti,
+   ciascuno con la propria licenza, mostrata prima del download e salvata nella sua
+   cartella. Il loro risultato può essere impreciso e va sempre verificato.
+
+8. Aggiornamenti e rete. ForgeWave controlla gli aggiornamenti al massimo una volta al
+   giorno chiedendo a GitHub l'ultima versione (si può disattivare nelle Impostazioni) e
+   si collega alla rete solo per questo e per scaricare i modelli che scegli. Non invia
+   audio, file né dati personali.
+
+9. Legge applicabile. Questa licenza è regolata dalla legge italiana. Restano salvi i
+   diritti che la legge del tuo paese riconosce ai consumatori e che non possono essere
+   limitati per contratto. Se una clausola risultasse invalida, le altre restano valide.
+
+------------------------------------------------------------------------------------------
+
+FORGEWAVE — FREE LICENCE
+Copyright © 2026 Enrico Fanucchi — https://www.enricofanucchi.com
+All rights reserved, except as granted below.
+
+By installing or using ForgeWave you accept these terms. If you do not accept them, do not
+install it. (The Italian text above prevails in case of differences.)
+
+1. Free use. ForgeWave is distributed free of charge. You may install and use it on any
+   number of computers, for personal, professional and commercial purposes.
+
+2. Distribution. You may redistribute the original, unmodified packages (DMG, installer,
+   zip, AppImage, .deb), only free of charge and together with this licence. You may not
+   sell them or present ForgeWave as your own work.
+
+3. Third-party components. ForgeWave contains open-source components, each under its own
+   licence (THIRD_PARTY_LICENSES.md, also in Settings › About). Those licences govern their
+   components and nothing in this text restricts them. In particular LAME (MP3 encoder,
+   GNU LGPL) is a separate library you may replace with your own build; modification for
+   your own use and the reverse engineering needed to debug such modifications are allowed.
+
+4. No warranty. ForgeWave is provided "as is" and "as available", without warranties of any
+   kind, express or implied, including merchantability, fitness for a particular purpose,
+   and freedom from errors or interruptions.
+
+5. Limitation of liability. To the maximum extent permitted by applicable law, the author
+   is not liable for any damages, direct or indirect, incidental or consequential,
+   including loss or corruption of files and data, loss of profits and business
+   interruption, arising from the use of or inability to use ForgeWave, even if advised of
+   the possibility of such damages. Liability that the law does not allow to be excluded
+   (for example for wilful misconduct or gross negligence) is unaffected.
+
+6. Your responsibility. You alone are responsible for the content you open, record,
+   capture, edit or publish with ForgeWave, in particular copyright and related rights,
+   the consent of people recorded and data protection. Capturing other applications'
+   audio, separating stems and transcribing must only be used on material you have the
+   right to use. Always keep a backup of your files.
+
+7. Artificial-intelligence models. Optional models are downloaded from third parties, each
+   under its own licence, shown before the download and saved in its folder. Their results
+   may be inaccurate and must always be checked.
+
+8. Updates and network. ForgeWave checks for updates at most once a day by asking GitHub
+   for the latest version (this can be turned off in Settings) and connects to the network
+   only for that and to download the models you choose. It sends no audio, files or
+   personal data.
+
+9. Governing law. This licence is governed by Italian law. Consumers keep the rights that
+   the law of their country grants them and that cannot be limited by contract. If a
+   clause is held invalid, the others remain in force.
