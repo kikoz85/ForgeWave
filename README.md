@@ -44,6 +44,8 @@ ForgeWave è un editor audio **non distruttivo**, con la stessa resa e le stesse
 - ⚡ **Editing istantaneo anche su file enormi**: tagli, incolla, marker e regioni; annulla e ripristina illimitati.
 - 🎧 **Riproduzione bit-perfect**, scrub, meter, loudness EBU R128 con **report** per streaming, broadcast e podcast.
 - 🎛️ **Processi**: normalizzazione di picco o LUFS, dissolvenze, **EQ a 6 bande**, **compressore e limiter true peak**, Instant Actions.
+- 💿 **Mastering**: **compressore multibanda**, EQ e multibanda anche solo **Mid o Side**, **confronto A/B** con un brano di riferimento allineato in loudness, **assemblaggio dell'album** con pause, dissolvenze, loudness comune e foglio CUE.
+- 📁 **Progetti**: salvi il lavoro e lo riprendi quando vuoi, con tutte le modifiche.
 - 🔌 **Plugin CLAP, VST3, AU e LV2** in un processo separato: se un plugin va in crash, ForgeWave resta aperto.
 - 🌈 **Editing spettrale** (spettrogramma, selezione tempo × frequenza, attenua e ripara) e **restauro**: riduzione del rumore, DeHiss, DeHum, DeClick, DeClip.
 - 🤖 **IA locale, senza cloud**: **separazione degli stem** (voce, batteria, basso, altro), **trascrizione** con editing dal testo (cancelli le parole e l'audio si taglia) e **restauro con un clic**.
@@ -92,6 +94,8 @@ ForgeWave is a **non-destructive** audio editor with the same look and performan
 - ⚡ **Instant editing, even on huge files**: cut, paste, markers and regions; unlimited undo and redo.
 - 🎧 **Bit-perfect playback**, scrubbing, meters, EBU R128 loudness with **reports** for streaming, broadcast and podcasts.
 - 🎛️ **Processing**: peak or LUFS normalization, fades, **6-band EQ**, **compressor and true-peak limiter**, Instant Actions.
+- 💿 **Mastering**: **multiband compressor**, EQ and multiband also on **Mid or Side** only, **A/B comparison** with a loudness-matched reference track, **album assembly** with pauses, crossfades, common loudness and CUE sheet.
+- 📁 **Projects**: save your work and pick it up whenever you like, with every edit.
 - 🔌 **CLAP, VST3, AU and LV2 plugins** in a separate process: if a plugin crashes, ForgeWave stays open.
 - 🌈 **Spectral editing** (spectrogram, time × frequency selection, attenuate and repair) and **restoration**: noise reduction, DeHiss, DeHum, DeClick, DeClip.
 - 🤖 **Local AI, no cloud**: **stem separation** (vocals, drums, bass, other), **transcription** with text-based editing (delete words and the audio is cut) and **one-click restoration**.
