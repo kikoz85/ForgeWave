@@ -21,7 +21,7 @@
 
 ![ForgeWave](screenshots/main-en.png)
 
-> **Beta pubblica / Public beta.** ForgeWave 0.9 è completo e provato su tutti e tre i sistemi, ma è ancora una beta: segnalaci i problemi nelle [Issues](https://github.com/kikoz85/ForgeWave/issues). / ForgeWave 0.9 is feature-complete and tested on all three systems, but it is still a beta: please report problems in the [Issues](https://github.com/kikoz85/ForgeWave/issues).
+> **ForgeWave 1.0 · versione stabile / stable release.** Completo e provato su macOS, Windows e Linux; segnalaci eventuali problemi nelle [Issues](https://github.com/kikoz85/ForgeWave/issues). / Feature-complete and tested on macOS, Windows and Linux; please report any problem in the [Issues](https://github.com/kikoz85/ForgeWave/issues).
 
 
 <table>
@@ -29,8 +29,8 @@
 <tr><td align="center">IA locale · Local AI</td><td align="center">Batch a nodi · Node batch</td></tr>
 <tr><td><img src="screenshots/restore-en.png" alt="Spectral editing and restoration"></td><td><img src="screenshots/plugins-en.png" alt="Plugins"></td></tr>
 <tr><td align="center">Spettrale e restauro · Spectral and restoration</td><td align="center">Plugin · Plugins</td></tr>
-<tr><td><img src="screenshots/eq-en.png" alt="EQ"></td><td><img src="screenshots/export-en.png" alt="Export"></td></tr>
-<tr><td align="center">EQ</td><td align="center">Export</td></tr>
+<tr><td><img src="screenshots/eq-en.png" alt="EQ"></td><td><img src="screenshots/streaming-en.png" alt="Streaming destination"></td></tr>
+<tr><td align="center">EQ</td><td align="center">Destinazione streaming · Streaming destination</td></tr>
 </table>
 
 ---
@@ -45,12 +45,13 @@ ForgeWave è un editor audio **non distruttivo**, con la stessa resa e le stesse
 - 🎧 **Riproduzione bit-perfect**, scrub, meter, loudness EBU R128 con **report** per streaming, broadcast e podcast.
 - 🎛️ **Processi**: normalizzazione di picco o LUFS, dissolvenze, **EQ a 6 bande**, **compressore e limiter true peak**, Instant Actions.
 - 💿 **Mastering**: **compressore multibanda**, EQ e multibanda anche solo **Mid o Side**, **confronto A/B** con un brano di riferimento allineato in loudness, **assemblaggio dell'album** con pause, dissolvenze, loudness comune e foglio CUE.
+- 📡 **Destinazione streaming**: cosa faranno al tuo master Spotify, Apple Music, YouTube, Tidal, Amazon Music e Deezer (lo abbassano, lo alzano o lo lasciano com'è), il picco dopo la loro conversione provata davvero, l'ascolto "come su Spotify" e la preparazione con un clic.
 - 📁 **Progetti**: salvi il lavoro e lo riprendi quando vuoi, con tutte le modifiche.
 - 🔌 **Plugin CLAP, VST3, AU e LV2** in un processo separato: se un plugin va in crash, ForgeWave resta aperto.
 - 🌈 **Editing spettrale** (spettrogramma, selezione tempo × frequenza, attenua e ripara) e **restauro**: riduzione del rumore, DeHiss, DeHum, DeClick, DeClip.
 - 🤖 **IA locale, senza cloud**: **separazione degli stem** (voce, batteria, basso, altro), **trascrizione** con editing dal testo (cancelli le parole e l'audio si taglia) e **restauro con un clic**.
 - 🧩 **Batch a nodi**: un flusso di nodi (LUFS, EQ, plugin, stem, sottotitoli, export…) su cartelle intere, in parallelo su tutti i core.
-- 🎙️ **Registrazione** multicanale, anche dell'audio delle altre app e del sistema.
+- 🎙️ **Registrazione** multicanale, anche dell'audio delle altre app e del sistema, con marker al volo (tasto M) durante la ripresa.
 - 💾 **Export** in WAV/BWF/RF64, AIFF, FLAC, MP3, OGG, Opus, AAC.
 - 🌍 Italiano, English, Français, Deutsch, Español, con la guida d'uso completa integrata.
 - 🔄 **Aggiornamenti automatici**, firmati e verificati.
@@ -79,6 +80,10 @@ Scarica dalla pagina [Releases](https://github.com/kikoz85/ForgeWave/releases/la
 
 ForgeWave è **gratuito**, anche per uso professionale e commerciale, ed è fornito così com'è, senza garanzie: i termini sono in [`LICENSE.txt`](LICENSE.txt). I componenti open source e il testo completo delle loro licenze sono in [`THIRD_PARTY_LICENSES.md`](THIRD_PARTY_LICENSES.md) e nell'app (**Impostazioni › Informazioni**). L'export MP3 usa LAME (LGPL), una libreria separata e sostituibile: sorgente e istruzioni sono in [`lame/`](lame).
 
+### Sostieni lo sviluppo
+
+ForgeWave è gratuito e sviluppato nel tempo libero. Se ti è utile, puoi sostenerne lo sviluppo con **[GitHub Sponsors](https://github.com/sponsors/kikoz85)** (il pulsante **Sponsor** è anche in cima a questa pagina e nell'app, in **Impostazioni › Generale** e **Informazioni**) oppure dalla pagina [Sostienimi](https://www.enricofanucchi.com/it/sostienimi?utm_source=github&utm_campaign=forgewave) del sito. Le donazioni pagano la firma degli installer, così macOS e Windows smettono di chiedere conferma al primo avvio, e il tempo per le prossime versioni. Anche una ⭐ al repository aiuta.
+
 ### Privacy
 
 L'audio resta sul tuo computer: l'IA gira in locale e i modelli si scaricano una volta da Hugging Face. L'unico collegamento a internet, oltre ai download dei modelli che chiedi tu, è il controllo della versione su GitHub (disattivabile).
@@ -95,12 +100,13 @@ ForgeWave is a **non-destructive** audio editor with the same look and performan
 - 🎧 **Bit-perfect playback**, scrubbing, meters, EBU R128 loudness with **reports** for streaming, broadcast and podcasts.
 - 🎛️ **Processing**: peak or LUFS normalization, fades, **6-band EQ**, **compressor and true-peak limiter**, Instant Actions.
 - 💿 **Mastering**: **multiband compressor**, EQ and multiband also on **Mid or Side** only, **A/B comparison** with a loudness-matched reference track, **album assembly** with pauses, crossfades, common loudness and CUE sheet.
+- 📡 **Streaming destination**: what Spotify, Apple Music, YouTube, Tidal, Amazon Music and Deezer will do to your master (turn it down, turn it up or leave it), the peak after their conversion, actually tested, "listen as on Spotify" and one-click preparation.
 - 📁 **Projects**: save your work and pick it up whenever you like, with every edit.
 - 🔌 **CLAP, VST3, AU and LV2 plugins** in a separate process: if a plugin crashes, ForgeWave stays open.
 - 🌈 **Spectral editing** (spectrogram, time × frequency selection, attenuate and repair) and **restoration**: noise reduction, DeHiss, DeHum, DeClick, DeClip.
 - 🤖 **Local AI, no cloud**: **stem separation** (vocals, drums, bass, other), **transcription** with text-based editing (delete words and the audio is cut) and **one-click restoration**.
 - 🧩 **Node batch**: a flow of nodes (LUFS, EQ, plugins, stems, subtitles, export…) on whole folders, in parallel on every core.
-- 🎙️ Multichannel **recording**, including other apps' and system audio.
+- 🎙️ Multichannel **recording**, including other apps' and system audio, with on-the-fly markers (M key) while recording.
 - 💾 **Export** to WAV/BWF/RF64, AIFF, FLAC, MP3, OGG, Opus, AAC.
 - 🌍 English, Italiano, Français, Deutsch, Español, with a complete built-in user guide.
 - 🔄 **Automatic updates**, signed and verified.
@@ -128,6 +134,10 @@ Download the file for your system from the [Releases](https://github.com/kikoz85
 ### Licence
 
 ForgeWave is **free**, including for professional and commercial use, and is provided as is, without warranty: the terms are in [`LICENSE.txt`](LICENSE.txt). Open-source components and the full text of their licences are in [`THIRD_PARTY_LICENSES.md`](THIRD_PARTY_LICENSES.md) and in the app (**Settings › About**). MP3 export uses LAME (LGPL), a separate, replaceable library: source and build instructions are in [`lame/`](lame).
+
+### Support development
+
+ForgeWave is free and built in spare time. If it helps you, you can support its development with **[GitHub Sponsors](https://github.com/sponsors/kikoz85)** (the **Sponsor** button is also at the top of this page and in the app, under **Settings › General** and **About**) or from the [Support](https://www.enricofanucchi.com/en/support?utm_source=github&utm_campaign=forgewave) page of the website. Donations pay for signed installers, so macOS and Windows stop asking for confirmation on first launch, and for the time to build the next versions. A ⭐ on the repository helps too.
 
 ### Privacy
 
