@@ -11,6 +11,7 @@
 
 <p align="center">
   <a href="https://github.com/kikoz85/ForgeWave/releases/latest"><img src="https://img.shields.io/github/v/release/kikoz85/ForgeWave?label=download&color=1EBCC3" alt="Download"></a>
+  <a href="https://www.enricofanucchi.com/it/app/forgewave?utm_source=github&utm_campaign=readme"><img src="https://img.shields.io/badge/sito%20%C2%B7%20website-enricofanucchi.com-F7941D" alt="ForgeWave website"></a>
   <a href="https://github.com/sponsors/kikoz85"><img src="https://img.shields.io/badge/Sponsor-%E2%9D%A4-db61a2?logo=githubsponsors&logoColor=white" alt="Sponsor ForgeWave on GitHub"></a>
   <img src="https://img.shields.io/badge/macOS%20%C2%B7%20Windows%20%C2%B7%20Linux-F7941D" alt="macOS · Windows · Linux">
 </p>
