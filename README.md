@@ -11,7 +11,6 @@
 
 <p align="center">
   <a href="https://github.com/kikoz85/ForgeWave/releases/latest"><img src="https://img.shields.io/github/v/release/kikoz85/ForgeWave?label=download&color=1EBCC3" alt="Download"></a>
-  <a href="https://www.enricofanucchi.com/it/app/forgewave?utm_source=github&utm_campaign=readme"><img src="https://img.shields.io/badge/sito%20%C2%B7%20website-enricofanucchi.com-F7941D" alt="ForgeWave website"></a>
   <a href="https://github.com/sponsors/kikoz85"><img src="https://img.shields.io/badge/Sponsor-%E2%9D%A4-db61a2?logo=githubsponsors&logoColor=white" alt="Sponsor ForgeWave on GitHub"></a>
   <img src="https://img.shields.io/badge/macOS%20%C2%B7%20Windows%20%C2%B7%20Linux-F7941D" alt="macOS · Windows · Linux">
 </p>
@@ -59,7 +58,7 @@ ForgeWave è un editor audio **non distruttivo**, con la stessa resa e le stesse
 
 ### Requisiti
 
-- **macOS 13** o successivo (Apple Silicon o Intel) · **Windows 10/11** a 64 bit · **Linux** x86_64 con glibc 2.39 o successiva (Ubuntu 24.04, Debian 13, Fedora 40 e più recenti; PipeWire o ALSA)
+- **macOS 13** o successivo (Apple Silicon o Intel) · **Windows 10/11** a 64 bit, x64 o ARM · **Linux** x86_64 o ARM64 (aarch64) con glibc 2.39 o successiva (Ubuntu 24.04, Debian 13, Fedora 40 e più recenti; PipeWire o ALSA)
 - IA locale: 8 GB di RAM consigliati; su macOS serve un Mac con Apple Silicon (i modelli si scaricano a parte, solo se servono)
 
 ### Installazione
@@ -70,8 +69,10 @@ Scarica dalla pagina [Releases](https://github.com/kikoz85/ForgeWave/releases/la
 |---|---|---|
 | macOS | `ForgeWave-x.y.z-macos-universal.dmg` | apri il DMG e trascina ForgeWave in **Applicazioni** |
 | Windows | `ForgeWave-x.y.z-windows-x64-setup.exe` | installer per il tuo utente, senza amministratore (oppure lo `.zip`) |
+| Windows su ARM | `ForgeWave-x.y.z-windows-arm64-setup.exe` | come sopra, nativo per i processori ARM (Snapdragon e simili) |
 | Linux | `ForgeWave-x.y.z-x86_64.AppImage` | rendilo eseguibile e aprilo (oppure il `.tar.gz` con `install.sh`) |
-| Debian, Ubuntu | `forgewave_x.y.z_amd64.deb` | aprilo con l'installer dei pacchetti, oppure `sudo apt install ./forgewave_x.y.z_amd64.deb` |
+| Linux ARM64 | `ForgeWave-x.y.z-aarch64.AppImage` | come sopra, per Raspberry Pi 5, server e PC ARM a 64 bit (oppure il `.tar.gz` `linux-aarch64`) |
+| Debian, Ubuntu | `forgewave_x.y.z_amd64.deb` · `forgewave_x.y.z_arm64.deb` | aprilo con l'installer dei pacchetti, oppure `sudo apt install ./forgewave_x.y.z_amd64.deb` (o `_arm64`) |
 
 - **macOS**, al primo avvio: se dice che non può verificare lo sviluppatore, apri **Impostazioni di Sistema › Privacy e sicurezza**, scorri in basso e premi **Apri comunque**.
 - **Windows**: se SmartScreen mostra "Windows ha protetto il PC", premi **Ulteriori informazioni › Esegui comunque**.
@@ -114,7 +115,7 @@ ForgeWave is a **non-destructive** audio editor with the same look and performan
 
 ### Requirements
 
-- **macOS 13** or later (Apple Silicon or Intel) · 64-bit **Windows 10/11** · x86_64 **Linux** with glibc 2.39 or later (Ubuntu 24.04, Debian 13, Fedora 40 and newer; PipeWire or ALSA)
+- **macOS 13** or later (Apple Silicon or Intel) · 64-bit **Windows 10/11**, x64 or ARM · x86_64 or ARM64 (aarch64) **Linux** with glibc 2.39 or later (Ubuntu 24.04, Debian 13, Fedora 40 and newer; PipeWire or ALSA)
 - Local AI: 8 GB of RAM recommended; on macOS it needs a Mac with Apple Silicon (models are downloaded separately, only when needed)
 
 ### Installation
@@ -125,8 +126,10 @@ Download the file for your system from the [Releases](https://github.com/kikoz85
 |---|---|---|
 | macOS | `ForgeWave-x.y.z-macos-universal.dmg` | open the DMG and drag ForgeWave into **Applications** |
 | Windows | `ForgeWave-x.y.z-windows-x64-setup.exe` | per-user installer, no administrator needed (or the `.zip`) |
+| Windows on ARM | `ForgeWave-x.y.z-windows-arm64-setup.exe` | as above, native for ARM processors (Snapdragon and similar) |
 | Linux | `ForgeWave-x.y.z-x86_64.AppImage` | make it executable and open it (or the `.tar.gz` with `install.sh`) |
-| Debian, Ubuntu | `forgewave_x.y.z_amd64.deb` | open it with the package installer, or `sudo apt install ./forgewave_x.y.z_amd64.deb` |
+| Linux ARM64 | `ForgeWave-x.y.z-aarch64.AppImage` | as above, for Raspberry Pi 5, servers and 64-bit ARM PCs (or the `linux-aarch64` `.tar.gz`) |
+| Debian, Ubuntu | `forgewave_x.y.z_amd64.deb` · `forgewave_x.y.z_arm64.deb` | open it with the package installer, or `sudo apt install ./forgewave_x.y.z_amd64.deb` (or `_arm64`) |
 
 - **macOS**, first launch: if it says the developer cannot be verified, open **System Settings › Privacy & Security**, scroll down and press **Open Anyway**.
 - **Windows**: if SmartScreen shows "Windows protected your PC", press **More info › Run anyway**.
