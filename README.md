@@ -74,7 +74,7 @@ Scarica dalla pagina [Releases](https://github.com/kikoz85/ForgeWave/releases/la
 | Linux ARM64 | `ForgeWave-x.y.z-aarch64.AppImage` | come sopra, per Raspberry Pi 5, server e PC ARM a 64 bit (oppure il `.tar.gz` `linux-aarch64`) |
 | Debian, Ubuntu | `forgewave_x.y.z_amd64.deb` · `forgewave_x.y.z_arm64.deb` | aprilo con l'installer dei pacchetti, oppure `sudo apt install ./forgewave_x.y.z_amd64.deb` (o `_arm64`) |
 
-- **macOS**, al primo avvio: se dice che non può verificare lo sviluppatore, apri **Impostazioni di Sistema › Privacy e sicurezza**, scorri in basso e premi **Apri comunque**.
+- **macOS**: l'app è firmata con un Developer ID Apple e notarizzata da Apple, quindi si apre subito senza avvisi.
 - **Windows**: se SmartScreen mostra "Windows ha protetto il PC", premi **Ulteriori informazioni › Esegui comunque**.
 - Gli aggiornamenti successivi arrivano dall'app (**Impostazioni › Generale › Aggiornamenti**): si installano solo se firmati con la chiave di ForgeWave e identici al file pubblicato. I file `SHA256SUMS*` e le loro firme `.sig` sono in ogni release. Chi ha installato il `.deb` si aggiorna installando il `.deb` nuovo.
 
@@ -131,7 +131,7 @@ Download the file for your system from the [Releases](https://github.com/kikoz85
 | Linux ARM64 | `ForgeWave-x.y.z-aarch64.AppImage` | as above, for Raspberry Pi 5, servers and 64-bit ARM PCs (or the `linux-aarch64` `.tar.gz`) |
 | Debian, Ubuntu | `forgewave_x.y.z_amd64.deb` · `forgewave_x.y.z_arm64.deb` | open it with the package installer, or `sudo apt install ./forgewave_x.y.z_amd64.deb` (or `_arm64`) |
 
-- **macOS**, first launch: if it says the developer cannot be verified, open **System Settings › Privacy & Security**, scroll down and press **Open Anyway**.
+- **macOS**: the app is signed with an Apple Developer ID and notarized by Apple, so it opens at once with no warnings.
 - **Windows**: if SmartScreen shows "Windows protected your PC", press **More info › Run anyway**.
 - Later updates come from the app (**Settings › General › Updates**): they are installed only if signed with ForgeWave's key and identical to the published file. The `SHA256SUMS*` files and their `.sig` signatures are in every release. If you installed the `.deb`, update by installing the new `.deb`.
 
