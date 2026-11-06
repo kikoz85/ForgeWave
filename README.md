@@ -11,6 +11,7 @@
 
 <p align="center">
   <a href="https://github.com/kikoz85/ForgeWave/releases/latest"><img src="https://img.shields.io/github/v/release/kikoz85/ForgeWave?label=download&color=1EBCC3" alt="Download"></a>
+  <a href="https://apps.microsoft.com/detail/9NLSS11V0KJZ"><img src="https://img.shields.io/badge/Microsoft%20Store-x64%20%C2%B7%20ARM64-0078D4" alt="Microsoft Store"></a>
   <a href="https://github.com/sponsors/kikoz85"><img src="https://img.shields.io/badge/Sponsor-%E2%9D%A4-db61a2?logo=githubsponsors&logoColor=white" alt="Sponsor ForgeWave on GitHub"></a>
   <img src="https://img.shields.io/badge/macOS%20%C2%B7%20Windows%20%C2%B7%20Linux-F7941D" alt="macOS · Windows · Linux">
 </p>
@@ -63,7 +64,11 @@ ForgeWave è un editor audio **non distruttivo**, con la stessa resa e le stesse
 
 ### Installazione
 
-Scarica dalla pagina [Releases](https://github.com/kikoz85/ForgeWave/releases/latest) il file per il tuo sistema:
+**Windows (x64 e ARM): il modo più semplice è il Microsoft Store.** Si installa con un clic, senza avvisi di SmartScreen, e lo Store lo tiene aggiornato.
+
+<a href="https://apps.microsoft.com/detail/9NLSS11V0KJZ"><img src="https://get.microsoft.com/images/it%20dark.svg" width="200" alt="Scarica da Microsoft"></a>
+
+In alternativa, scarica dalla pagina [Releases](https://github.com/kikoz85/ForgeWave/releases/latest) il file per il tuo sistema:
 
 | Sistema | File | Come |
 |---|---|---|
@@ -75,8 +80,8 @@ Scarica dalla pagina [Releases](https://github.com/kikoz85/ForgeWave/releases/la
 | Debian, Ubuntu | `forgewave_x.y.z_amd64.deb` · `forgewave_x.y.z_arm64.deb` | aprilo con l'installer dei pacchetti, oppure `sudo apt install ./forgewave_x.y.z_amd64.deb` (o `_arm64`) |
 
 - **macOS**: l'app è firmata con un Developer ID Apple e notarizzata da Apple, quindi si apre subito senza avvisi.
-- **Windows**: se SmartScreen mostra "Windows ha protetto il PC", premi **Ulteriori informazioni › Esegui comunque**.
-- Gli aggiornamenti successivi arrivano dall'app (**Impostazioni › Generale › Aggiornamenti**): si installano solo se firmati con la chiave di ForgeWave e identici al file pubblicato. I file `SHA256SUMS*` e le loro firme `.sig` sono in ogni release. Chi ha installato il `.deb` si aggiorna installando il `.deb` nuovo.
+- **Windows**: se SmartScreen mostra "Windows ha protetto il PC", premi **Ulteriori informazioni › Esegui comunque** (con la versione del Microsoft Store non succede).
+- Gli aggiornamenti successivi arrivano dall'app (**Impostazioni › Generale › Aggiornamenti**; la versione del Microsoft Store la aggiorna lo Store): si installano solo se firmati con la chiave di ForgeWave e identici al file pubblicato. I file `SHA256SUMS*` e le loro firme `.sig` sono in ogni release. Chi ha installato il `.deb` si aggiorna installando il `.deb` nuovo.
 
 ### Licenza
 
@@ -120,7 +125,11 @@ ForgeWave is a **non-destructive** audio editor with the same look and performan
 
 ### Installation
 
-Download the file for your system from the [Releases](https://github.com/kikoz85/ForgeWave/releases/latest) page:
+**Windows (x64 and ARM): the easiest way is the Microsoft Store.** One-click install, no SmartScreen warnings, and the Store keeps it up to date.
+
+<a href="https://apps.microsoft.com/detail/9NLSS11V0KJZ"><img src="https://get.microsoft.com/images/en-us%20dark.svg" width="200" alt="Get it from Microsoft"></a>
+
+Otherwise, download the file for your system from the [Releases](https://github.com/kikoz85/ForgeWave/releases/latest) page:
 
 | System | File | How |
 |---|---|---|
@@ -132,8 +141,8 @@ Download the file for your system from the [Releases](https://github.com/kikoz85
 | Debian, Ubuntu | `forgewave_x.y.z_amd64.deb` · `forgewave_x.y.z_arm64.deb` | open it with the package installer, or `sudo apt install ./forgewave_x.y.z_amd64.deb` (or `_arm64`) |
 
 - **macOS**: the app is signed with an Apple Developer ID and notarized by Apple, so it opens at once with no warnings.
-- **Windows**: if SmartScreen shows "Windows protected your PC", press **More info › Run anyway**.
-- Later updates come from the app (**Settings › General › Updates**): they are installed only if signed with ForgeWave's key and identical to the published file. The `SHA256SUMS*` files and their `.sig` signatures are in every release. If you installed the `.deb`, update by installing the new `.deb`.
+- **Windows**: if SmartScreen shows "Windows protected your PC", press **More info › Run anyway** (this does not happen with the Microsoft Store version).
+- Later updates come from the app (**Settings › General › Updates**; the Microsoft Store version is updated by the Store): they are installed only if signed with ForgeWave's key and identical to the published file. The `SHA256SUMS*` files and their `.sig` signatures are in every release. If you installed the `.deb`, update by installing the new `.deb`.
 
 ### Licence
 
