@@ -35,6 +35,13 @@
 <tr><td align="center">EQ</td><td align="center">Destinazione streaming · Streaming destination</td></tr>
 </table>
 
+### 🆕 Novità della 1.2 · New in 1.2
+
+<table>
+<tr><td><img src="screenshots/pitch-bend-en.png" alt="Graphic Pitch Bend"></td><td><img src="screenshots/loop-mix-en.png" alt="Loop, Duplicate and Paste mix"></td></tr>
+<tr><td align="center">Pitch Bend grafico · Graphic Pitch Bend</td><td align="center">Loop, Duplica/Ripeti e Incolla mix · Loop, Duplicate/Repeat and Paste mix</td></tr>
+</table>
+
 ---
 
 ## 🇮🇹 Italiano
