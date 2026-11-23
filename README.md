@@ -23,7 +23,7 @@
 
 ![ForgeWave](screenshots/main-en.png)
 
-> **ForgeWave 1.0 · versione stabile / stable release.** Completo e provato su macOS, Windows e Linux; segnalaci eventuali problemi nelle [Issues](https://github.com/kikoz85/ForgeWave/issues). / Feature-complete and tested on macOS, Windows and Linux; please report any problem in the [Issues](https://github.com/kikoz85/ForgeWave/issues).
+> **ForgeWave 1.2 · versione stabile / stable release.** Completo e provato su macOS, Windows e Linux; segnalaci eventuali problemi nelle [Issues](https://github.com/kikoz85/ForgeWave/issues). / Feature-complete and tested on macOS, Windows and Linux; please report any problem in the [Issues](https://github.com/kikoz85/ForgeWave/issues).
 
 
 <table>
@@ -44,6 +44,7 @@ ForgeWave è un editor audio **non distruttivo**, con la stessa resa e le stesse
 ### Cosa fa
 
 - ⚡ **Editing istantaneo anche su file enormi**: tagli, incolla, marker e regioni; annulla e ripristina illimitati.
+- 🔁 **Novità della 1.2**: **loop della selezione** senza buchi (Q), **Duplica** e **Ripeti N volte** (Cmd/Ctrl+D), **Incolla mix** per sovrapporre gli appunti all'audio con i livelli di ciascuno (Cmd/Ctrl+Shift+V) e **Pitch Bend grafico** come in Sound Forge: disegni come cambia l'intonazione, con il modo Nastro o Mantieni durata.
 - 🎧 **Riproduzione bit-perfect**, scrub, meter, loudness EBU R128 con **report** per streaming, broadcast e podcast.
 - 🎛️ **Processi**: normalizzazione di picco o LUFS, dissolvenze, **EQ a 6 bande**, **compressore e limiter true peak**, Instant Actions.
 - 💿 **Mastering**: **compressore multibanda**, EQ e multibanda anche solo **Mid o Side**, **confronto A/B** con un brano di riferimento allineato in loudness, **assemblaggio dell'album** con pause, dissolvenze, loudness comune e foglio CUE.
@@ -109,6 +110,7 @@ ForgeWave is a **non-destructive** audio editor with the same look and performan
 ### What it does
 
 - ⚡ **Instant editing, even on huge files**: cut, paste, markers and regions; unlimited undo and redo.
+- 🔁 **New in 1.2**: gapless **loop of the selection** (Q), **Duplicate** and **Repeat N times** (Cmd/Ctrl+D), **Paste mix** to layer the clipboard over the audio with a level for each (Cmd/Ctrl+Shift+V) and a **graphic Pitch Bend** like Sound Forge: draw how the pitch changes, in Tape or Keep length mode.
 - 🎧 **Bit-perfect playback**, scrubbing, meters, EBU R128 loudness with **reports** for streaming, broadcast and podcasts.
 - 🎛️ **Processing**: peak or LUFS normalization, fades, **6-band EQ**, **compressor and true-peak limiter**, Instant Actions.
 - 💿 **Mastering**: **multiband compressor**, EQ and multiband also on **Mid or Side** only, **A/B comparison** with a loudness-matched reference track, **album assembly** with pauses, crossfades, common loudness and CUE sheet.
